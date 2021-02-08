@@ -22,10 +22,10 @@ function displayTeddies( src, title, price){
    
     
 }
-displayTeddies('./back_end/images/teddy_1.jpg', 'Norbert', 29,00);
-displayTeddies('./back_end/images/teddy_2.jpg', 'Arnold', 39,00);
-displayTeddies('./back_end/images/teddy_3.jpg', 'Lenny and Carl', 59,00);
-displayTeddies('./back_end/images/teddy_4.jpg', 'Gustav', 45,00);
-displayTeddies('./back_end/images/teddy_5.jpg', 'Garfunkel', 55,00);
+displayTeddies('./images/teddy_1.jpg', 'Norbert', 29,00);
+displayTeddies('./images/teddy_2.jpg', 'Arnold', 39,00);
+displayTeddies('./images/teddy_3.jpg', 'Lenny and Carl', 59,00);
+displayTeddies('./images/teddy_4.jpg', 'Gustav', 45,00);
+displayTeddies('./images/teddy_5.jpg', 'Garfunkel', 55,00);
 
 
