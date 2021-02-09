@@ -1,5 +1,4 @@
 // add goods in html
-
 function displayTeddies(href, src, title, price){
     let box = document.getElementById('teddies');
     let a = document.createElement('a');
