@@ -2,6 +2,7 @@
     width: 980px;
     height: auto;
     margin: auto;
+    flex: 1;
 }
 header{
     width: 100%;
@@ -35,21 +36,11 @@ a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    & img{
-        width: 300px;
-        height: auto;
-        border: 1px solid #f2f2f2;
-        border-radius: 20px;
     
-    }
-    & .produit-main__info{
-        display: flex;
-        flex-direction: row;
-        vertical-align: bottom;
-        >p{
+    & >p{
             margin-right: 30px;
         }
-    }
+    
     & h2{
         font-family: Raleway;
         font-size: larger;
@@ -58,8 +49,7 @@ a{
 }
 // norbert.html
 .teddy{
-    display: flex;
-    flex-wrap: nowrap;
+   
     & h1{
         font-family: Raleway;
         font-size: larger;
@@ -103,5 +93,11 @@ a{
     border-radius: 20px;
     margin: 20px auto;
 
+}
+img{
+    width: 300px;
+    height: auto;
+    border: 1px solid #f2f2f2;
+    border-radius: 20px;
 }
 
